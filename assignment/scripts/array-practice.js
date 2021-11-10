@@ -8,10 +8,9 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let name='Desiree';
 let favoriteFoods=['raspberries','strawberries','pizza','cheesecake'];
 
-console.log(name+'`s favorite foods are:'+favoriteFoods);
+console.log('My favorite foods are:'+favoriteFoods);
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
 

@@ -1,0 +1,17 @@
+body{
+  background-image: url("https://media.istockphoto.com/photos/falling-autumn-leaves-before-sunset-picture-id1176602671?k=20&m=1176602671&s=170667a&w=0&h=XRCl5FS6LGFnCuyQdIMwvT8EaecxhzX-bg3XHsrkAm8=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  margin-right: 45rem;
+  padding-left: 4rem;
+}
+
+h2 {
+  padding-left: 5rem;
+}
