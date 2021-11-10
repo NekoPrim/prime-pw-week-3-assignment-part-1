@@ -8,10 +8,27 @@ header {
   background-color: black;
   border: 1px solid white;
   color: white;
+  margin-left: 1rem;
   margin-right: 45rem;
-  padding-left: 4rem;
+  padding-left: 3rem;
 }
 
 h2 {
   padding-left: 5rem;
+}
+
+footer {
+  align-items: center;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  
+}
+
+.dragon {
+  width: 20%;
 }
