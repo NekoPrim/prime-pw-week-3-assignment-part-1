@@ -1,36 +1,104 @@
-body{
-  background-image: url("https://media.istockphoto.com/photos/falling-autumn-leaves-before-sunset-picture-id1176602671?k=20&m=1176602671&s=170667a&w=0&h=XRCl5FS6LGFnCuyQdIMwvT8EaecxhzX-bg3XHsrkAm8=");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-color: brown;
 }
 
 header {
-  background-color: black;
-  border: 1px solid white;
-  color: white;
-  margin-left: 1rem;
-  margin-right: 45rem;
-  padding-left: 3rem;
-}
-
-h2 {
-  padding-left: 5rem;
-}
-
-footer {
   align-items: center;
   background-color: black;
   border: 1px solid white;
   color: white;
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  flex-shrink: 1;
-  justify-content: space-around;
-  margin-bottom: 1rem;
-  margin-top: 15rem;
+  display: block;
+  justify-content: space-between;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.dragon {
-  width: 20%;
+.fotos {
+  border: 1px solid white;
+  height: 40rem;
+  left: 50%;
+  margin-top: 2rem;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 75rem;
+}
+
+.fotos img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+.image1 {
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-name: first;
+  animation-timing-function: ease-in-out;
+  height: 40rem;
+  width: 75rem;
+}
+
+@keyframes first {
+  0% {opacity: 1;}
+  20% {opacity: 1;}
+  45% {opacity: 0;}
+  70% {opacity: 0;}
+  95% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+.image2 {
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-name: second;
+  animation-timing-function: ease-in-out;
+  height: 40rem;
+  width: 75rem;
+}
+
+@keyframes second {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  45% {opacity: 1;}
+  70% {opacity: 0;}
+  95% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.image3 {
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-name: third;
+  animation-timing-function: ease-in-out;
+  height: 40rem;
+  width: 75rem;
+}
+
+@keyframes third {
+  0% {opacity: 0;}
+  20% {opacity: 0;}
+  45% {opacity: 1;}
+  70% {opacity: 1;}
+  95% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.image4 {
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-name: forth;
+  animation-timing-function: ease-in-out;
+  height: 40rem;
+  width: 75rem;
+}
+
+@keyframes forth {
+  0% {opacity: 0;}
+  20% {opacity: 0;}
+  45% {opacity: 0;}
+  70% {opacity: 1;}
+  95% {opacity: 1;}
+  100% {opacity: 0;}
 }
