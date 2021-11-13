@@ -9,8 +9,8 @@ header {
   color: white;
   display: block;
   justify-content: space-between;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-top: 1rem;
   text-align: center;
 }
@@ -101,4 +101,14 @@ header {
   70% {opacity: 1;}
   95% {opacity: 1;}
   100% {opacity: 0;}
+}
+
+footer {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+  text-align: center;
 }
