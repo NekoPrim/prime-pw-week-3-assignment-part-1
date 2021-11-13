@@ -3,14 +3,12 @@ body {
 }
 
 header {
-  align-items: center;
   background-color: black;
   border: 1px solid white;
   color: white;
   display: block;
-  justify-content: space-between;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   margin-top: 1rem;
   text-align: center;
 }
@@ -107,8 +105,8 @@ footer {
   background-color: black;
   border: 1px solid white;
   color: white;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   margin-top: 2rem;
   text-align: center;
 }
